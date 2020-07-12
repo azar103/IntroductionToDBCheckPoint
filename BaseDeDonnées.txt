@@ -1,0 +1,60 @@
+MySQL:
+
+MySQL est une serveur de base de donnée relationnelle,  il est multi-thred, et multi-utilisateurs qui fonctionne sur tous les
+Systémes d'exploitations.
+son nom vient de la fille du cocréateur Michael Widenius My.SQL fait référence au structured Query Language.
+deux moteur principaux sont présents myISAM et InnoDB.
+les utilisateurs utilsent phpMyAdmin pour remplir , créer et utiliser les base de données MySQL.
+
+PostgreSQL:
+c'est un outil libre.
+son créateur est Michael Stonebraker.
+c'est un moteur de base de données transactionnels, il dispose d'un langage PL/PgSQL
+-il dispose de nombreux outils autour:
+ -client cli: psql
+ -client GUI: pgAdmin
+ -postgis: volet géographique
+ -nombrux système de réplications
+-il dispose de systéme d'extensions
+
+
+Server SQL:
+c'est un système de gestion de base de donnée en Langage SQL incroprant entre autre un SGBDR développé
+et commercialisé par la société Microsoft.
+-il disponse d'un moteur OLTP doté de nombreuses fonctionnalités.
+-il supporte les 4 niveaux d'isolation transactionnel de la norme SQL.
+-il permet une compression des données et des sauvegardes.
+-il supporte le XML
+
+Differences entre MySQL, SQL Server et PostgreSQL:
+
+1-Developpé par:
+-MySQL est developpée par Oracle
+SQL Server est dévéloppé par Microsoft
+PostgresSQL: developpé par Global Developmenet Group
+
+2-Langage de support:
+MySQL supporte des langages de programmations comme C++, java et prend en charge Perl, TCL et Haskell.
+SQL Server supporte des langages de programmation comme c++, JavaRuby, Visual Basic et Delphy et r.
+PostgreSQL supporte des langages procédurales comme C et Python.
+
+3-Espace de Stockage:
+-MySQL a besoin de moins de stockage opérationnel
+-SQL Server a besoin d'une grande quantité d'espace de stockage opérationnel.
+-PostgreSQL consomme avec ses requetes de plus en plus d'espace sur le disque dur.
+
+4-Annulation de requete:
+
+-MySQL ne prend pas en charge l'annualtion de requete en mi-chemin
+-SQL Server permet d'anuler les requetes en mi-chemin
+-Postgre SQL permet l'annulation des requetes en mi-chemin
+
+5-Cout:
+-MySQL  est gratuit
+-SQL Server est couteux
+-Postgre SQL est gratuit
+
+
+
+
+
